@@ -1,0 +1,99 @@
+.aboutPage {
+    padding-top:20px;
+    background-color: rgba(249, 240, 163, 0.815);
+}
+
+.aboutPage .column {
+    float: left;
+    width: 15%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleContainer .icon {
+    margin: 0 50px !important;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.titleContainer img {
+    transform: rotate(30deg);
+    width: 110px;
+    animation: rotate 2s linear infinite;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+/* .aboutPage .card {
+    box-shadow: 0 4px 8px 0 rgba(37, 37, 37, 0.2);
+    margin: 8px;
+} */
+
+.aboutPage .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #3b3ffd;
+    color: white;
+}      
+
+/* .aboutPage .container {
+    padding: 0 8px;
+} */
+
+.aboutPage .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.aboutPage .title {
+    color: grey;
+    font-size: 40px;
+}
+
+.aboutCardContent{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.aboutCardName{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.aboutPage .introduction {
+    text-align: center;
+    color: rgba(0, 20, 85, 0.895);
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 15%;
+    padding-right: 15%;
+    line-height: 2;
+}
+
+.bottomPic {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomPic img {
+    width: 200px;
+}

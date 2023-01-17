@@ -1,0 +1,106 @@
+.mintArea {
+  box-sizing: border-box;
+  height: 85vh;
+  margin: auto 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* .title {
+  width: 30em;
+  border-right: .05em solid;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 5s steps(30),
+    caret 1s steps(1) infinite;
+} */
+
+.mintArea .content {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mintArea .title {
+  display: inline-block;
+}
+.mintArea .title div {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  animation: typing 6s steps(30, end) infinite, blinking .8s infinite;
+  font-size: 50px;
+  line-height: 50px;
+  width: 0;
+}
+@keyframes typing {
+  from { width: 0 }
+  40% { width: 100% }
+  to { width: 100% }
+}
+@keyframes blinking {
+  from { border-color: transparent }
+  to { border-color: orange; }
+}
+
+.mintArea img {
+
+  max-width: 450px;
+  border-radius: 10%;
+  width: 80%;
+  margin: 2em auto;
+}
+
+.mintArea h1 {
+  margin: 10px 0;
+}
+
+.mintButton {
+  margin: 5%;
+  width: 80%;
+  height: 84px;
+  border-radius: 100px;
+  border: none;
+  background-color: #873E15;
+  color: antiquewhite;
+  font-weight: 700;
+  font-size: 24px;
+  transition: 0.2s;
+}
+
+.mintButton:hover {
+  color: #873E15;
+  background-color: antiquewhite;
+  font-size: 30px;
+}
+
+.mintButton p {
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+
+.component {
+  min-width: 300px;
+  max-width: 500px;
+  color: white;
+  background-color: black;
+  border-radius: 40px;
+  width: 30%;
+  text-align: center;
+}
+
+.token {
+  min-width: 300px;
+  max-width: 500px;
+  color: white;
+  background-color: black;
+  border-radius: 40px;
+  width:30%;
+  text-align: center;
+}

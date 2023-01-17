@@ -1,0 +1,112 @@
+.NFTPage {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoContainer{
+  background-color: #9c3303ef;
+  position: absolute;
+  width: 75%;
+  height: 85%;
+  padding: 30px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+/* rgba(244, 117, 33, 0.9); */
+
+.infoImage{
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+  height: 80%;
+  padding: 10px;
+  border-radius: 50px;
+  color: rgb(47, 47, 47);
+  text-align: center;
+}
+
+
+.infoImage img {
+  overflow: hidden;
+  top: 0%;
+  left: 0%;
+  max-width: 90%;
+  max-height: 70%;
+}
+
+.infoText{
+  background-color: rgba(220, 91, 10, 0.973);
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border-radius:30px;
+}
+
+.inner{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner p{
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.inner h1{
+  font-size: 40px;
+}
+
+.operateButton {
+  border: none;
+  width: 70%;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #ff962d;
+  color: white;
+  margin: 10px 0;
+  font-size: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.operateButton:hover{
+  background-color: #825941;
+}
+
+.componentList{
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.inputArea{
+  display: flex;
+  justify-content: center;
+}
+
+.nameField{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+}
+
+.nameField h1{
+  font-size: 35px;
+  font-weight:bold;
+  padding: 0px 15px;
+}

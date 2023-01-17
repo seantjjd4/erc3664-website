@@ -1,0 +1,140 @@
+header {
+  width: 100vw;
+  height: 10vh;
+  min-height: 70px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-header {
+  width: 35vw;
+  height: inherit;
+  min-width: 600px;
+  margin-left: 10px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.logo{
+  max-width: 65%;
+  transition: 0.1s;
+}
+
+.logo:hover {
+  max-width: 80%;
+}
+
+
+.link{
+  height: 60px;
+  text-align: center;
+  width: 20%;
+  padding: 10px 0px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.1s;
+}
+
+.left-header .link:hover {
+  font-size: 20px;
+  color: antiquewhite;
+}
+
+.right-header {
+  min-width: 600px;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerTextFiled{
+  border-radius:20px;
+  background-color:#FFD36E;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  width: 150px;
+  height: 50px;
+}
+
+.coin {
+  height: 35px;
+}
+
+/* .coinRemain {
+  margin: 0 20px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:black;
+}
+
+.coinRemain .textArea {
+  width: 10em;
+  background-color:#FDC314;
+  height: 50px;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coinRemain .textArea p {
+  font-size:20px;
+  text-align: baseline;
+} */
+
+.connectButton {
+  width: 120px;
+  height: 50px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 9999px;
+  background-color: #FDC314;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.connectButton:hover {
+  width: 130px;
+  height: 60px;
+  margin: 0;
+  background-color: #ffe69b;
+}
+
+.connectButton p {
+  color: black;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.address,.coinAmount {
+  margin: 0 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #082032;
+  width: auto;
+}
